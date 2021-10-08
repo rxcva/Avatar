@@ -6,7 +6,7 @@ export function Like() {
     const [count, setCount] = React.useState(0)
     return (
         <div className="App">
-            <div>
+            <div style={{ display: 'flex' }}>
                 <span className="like" onClick={() => { setCount(count => {
                         if(count === 0){
                             setIsLiked(true) 

@@ -15,8 +15,11 @@ function App() {
     <Avatar avatar={q2} fullname={'Ivan'}></Avatar> 
     <Avatar avatar={q3} fullname={'Eva'}></Avatar> 
     <ImageComponent width={'30px'}  height={'30px'}></ImageComponent> 
+    <Like/>
     <ImageComponent width={'40px'}  height={'40px'}></ImageComponent> 
+    <Like/> 
     <ImageComponent width={'50px'}  height={'50px'}></ImageComponent> 
+    <Like/>
     <ImageComponent width={'60px'}  height={'60px'}/>
     <Like/>
 
