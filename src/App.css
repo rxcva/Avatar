@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+} 
+
+.like{
+  color: grey;
+  cursor: pointer;
+}
+.like:hover{
+  color: teal;
 }
